@@ -22,6 +22,7 @@
                     <li><a href="{{route('class-timetable')}}">Classes timetable</a></li>
                     <li><a href="{{route('gallery')}}">Gallery</a></li>
                     <li><a href="{{route('blog')}}">Our blog</a></li>
+                    <li><a href="{{route('login')}}">Login</a></li>
                 </ul>
             </li>
             <li><a href="{{ route('contact') }}">Contact</a></li>
@@ -60,6 +61,7 @@
                                 <li><a href="{{route('class-timetable')}}">Classes timetable</a></li>
                                 <li><a href="{{route('gallery')}}">Gallery</a></li>
                                 <li><a href="{{route('blog')}}">Our blog</a></li>
+                                <li><a href="{{route('login')}}">Login</a></li>
                             </ul>
                         </li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
