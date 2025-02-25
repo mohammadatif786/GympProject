@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LandingPageController;
+use App\Http\Controllers\RoleController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -29,6 +30,12 @@ Route::controller(LandingPageController::class)->group(function(){
     Route::get('blog-details','blogDetails')->name('blog-details');
 });
 
+
+Route::controller(RoleController::class)->group(function(){
+
+    Route::get('list','index')->name('roles-list');
+
+});
 
 Route::fallback(function(){
     return view('404');
